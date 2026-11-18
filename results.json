@@ -1,0 +1,43 @@
+{
+  "best": "GradientBoosting",
+  "results": {
+    "LogisticRegression": {
+      "accuracy": 0.81,
+      "precision": 0.7843137254901961,
+      "recall": 0.8333333333333334,
+      "f1": 0.8080808080808081,
+      "roc_auc": 0.8946314102564102
+    },
+    "GradientBoosting": {
+      "accuracy": 0.84,
+      "precision": 0.82,
+      "recall": 0.8541666666666666,
+      "f1": 0.8367346938775511,
+      "roc_auc": 0.8790064102564101
+    }
+  },
+  "confusion_matrices": {
+    "LogisticRegression": [
+      [
+        41,
+        11
+      ],
+      [
+        8,
+        40
+      ]
+    ],
+    "GradientBoosting": [
+      [
+        43,
+        9
+      ],
+      [
+        7,
+        41
+      ]
+    ]
+  },
+  "train_rows": 400,
+  "test_rows": 100
+}

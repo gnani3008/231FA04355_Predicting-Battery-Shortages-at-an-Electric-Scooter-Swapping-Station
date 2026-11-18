@@ -1,0 +1,50 @@
+[
+  {
+    "scenario": "High demand (festival evening, rain)",
+    "input": {
+      "charged_batteries_5pm": 15,
+      "batteries_finishing_by_7pm": 4,
+      "advance_bookings": 25,
+      "historical_walkin_demand": 35,
+      "rainfall_forecast_mm": 12.0,
+      "is_weekend": 1,
+      "nearby_event": 1
+    },
+    "status_code": 200,
+    "output": {
+      "prediction": "Shortage Expected",
+      "shortage_probability": 0.999
+    }
+  },
+  {
+    "scenario": "Low demand (quiet weekday)",
+    "input": {
+      "charged_batteries_5pm": 45,
+      "batteries_finishing_by_7pm": 12,
+      "advance_bookings": 6,
+      "historical_walkin_demand": 15,
+      "rainfall_forecast_mm": 0.0,
+      "is_weekend": 0,
+      "nearby_event": 0
+    },
+    "status_code": 200,
+    "output": {
+      "prediction": "Sufficient Batteries",
+      "shortage_probability": 0.004
+    }
+  },
+  {
+    "scenario": "Invalid negative battery count",
+    "input": {
+      "charged_batteries_5pm": -4,
+      "batteries_finishing_by_7pm": 12,
+      "advance_bookings": 6,
+      "historical_walkin_demand": 15,
+      "rainfall_forecast_mm": 0.0,
+      "is_weekend": 0,
+      "nearby_event": 0
+    },
+    "status_code": 422,
+    "output": "rejected: validation error"
+  }
+]

@@ -1,0 +1,15 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-8.4.2, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /content/battery_project
+plugins: platformdirs-4.14.3, langsmith-0.14.17, anyio-4.16.0, typeguard-4.6.0
+collecting ... collected 6 items
+
+tests/test_pipeline.py::test_dataset_size_and_target PASSED              [ 16%]
+tests/test_pipeline.py::test_festival_version_has_more_shortages PASSED  [ 33%]
+tests/test_pipeline.py::test_negative_battery_count_raises_error PASSED  [ 50%]
+tests/test_pipeline.py::test_engineered_features PASSED                  [ 66%]
+tests/test_pipeline.py::test_api_rejects_negative_batteries PASSED       [ 83%]
+tests/test_pipeline.py::test_api_prediction_label PASSED                 [100%]
+
+============================== 6 passed in 2.40s ===============================
