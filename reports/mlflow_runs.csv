@@ -1,0 +1,4 @@
+metrics.f1,metrics.precision,metrics.roc_auc,metrics.recall,metrics.accuracy,params.model,tags.mlflow.runName
+0.8367346938775511,0.82,0.8790064102564101,0.8541666666666666,0.84,GradientBoosting,register_GradientBoosting
+0.8367346938775511,0.82,0.8790064102564101,0.8541666666666666,0.84,GradientBoosting,GradientBoosting
+0.8080808080808081,0.7843137254901961,0.8946314102564102,0.8333333333333334,0.81,LogisticRegression,LogisticRegression

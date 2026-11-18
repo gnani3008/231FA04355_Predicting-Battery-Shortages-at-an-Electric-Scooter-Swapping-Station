@@ -1,0 +1,22 @@
+{
+  "v1": {
+    "rows": 250,
+    "avg_advance_bookings": 10.56,
+    "avg_walkin_demand": 24.22,
+    "avg_charged_5pm": 33.66,
+    "event_rate": 0.128,
+    "avg_rainfall_mm": 2.21,
+    "avg_simulated_arrivals": 37.16,
+    "shortage_rate": 0.368
+  },
+  "v2": {
+    "rows": 250,
+    "avg_advance_bookings": 11.79,
+    "avg_walkin_demand": 25.73,
+    "avg_charged_5pm": 34.49,
+    "event_rate": 0.368,
+    "avg_rainfall_mm": 2.84,
+    "avg_simulated_arrivals": 44.36,
+    "shortage_rate": 0.588
+  }
+}

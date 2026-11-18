@@ -1,0 +1,40 @@
+{
+  "battery_features_v1": {
+    "rows": 250,
+    "columns": [
+      "charged_batteries_5pm",
+      "batteries_finishing_by_7pm",
+      "advance_bookings",
+      "historical_walkin_demand",
+      "rainfall_forecast_mm",
+      "is_weekend",
+      "nearby_event",
+      "simulated_arrivals",
+      "battery_shortage",
+      "dataset_version",
+      "expected_battery_supply",
+      "booking_pressure_ratio"
+    ],
+    "created": "2026-11-18T09:01:36",
+    "reads": 1
+  },
+  "battery_features_v2": {
+    "rows": 250,
+    "columns": [
+      "charged_batteries_5pm",
+      "batteries_finishing_by_7pm",
+      "advance_bookings",
+      "historical_walkin_demand",
+      "rainfall_forecast_mm",
+      "is_weekend",
+      "nearby_event",
+      "simulated_arrivals",
+      "battery_shortage",
+      "dataset_version",
+      "expected_battery_supply",
+      "booking_pressure_ratio"
+    ],
+    "created": "2026-11-18T09:01:36",
+    "reads": 1
+  }
+}
